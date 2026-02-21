@@ -14,7 +14,7 @@
 | `is_string("a") -> true` | `isset($a) -> false` | `print_r([1,2]) -> Array` |
 | `serialize([1,2]) -> a:2:{i:0;i:1;i:1;i:2;}` | `settype($a,"int") -> true` | `strval(10) -> "10"` |
 | `unserialize("i:5;") -> 5` | `unset($a) -> null` | `var_dump(1) -> int(1)` |
-| `var_export(1,true) -> 1` | String Functions |  |
+| `var_export(1,true) -> 1` | __String Functions__ |  |
 | `addcslashes("hello","e") -> h\e\llo` | `addslashes("O'Reilly") -> O\'Reilly` | `bin2hex("AB") -> 4142` |
 | `chop("hello ") -> hello` | `chr(65) -> A` | `chunk_split("Hello",2,"-") -> He-ll-o-` |
 | `convert_cyr_string("тест","d","w") -> test` | `convert_uudecode("hZ") -> h` | `convert_uuencode("hi") -> h+` |
